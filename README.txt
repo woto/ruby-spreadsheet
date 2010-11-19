@@ -83,3 +83,8 @@ Copyright (c) 2008 by Hannes Wyss (hannes.wyss@gmail.com)
 This library is distributed under the GPLv3.
 Please see the LICENSE[link://files/LICENSE_txt.html] file.
 
+=======
+
+There is now an official git repository at git://scm.ywesee.com/spreadsheet
+
+Please go there to find the code.
