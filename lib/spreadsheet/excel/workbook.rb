@@ -64,7 +64,7 @@ class Workbook < Spreadsheet::Workbook
     @date_base ||= DateTime.new 1899, 12, 31
   end
   def shared_string idx
-    @sst[idx.to_i].content
+    @sst[idx.to_i].content if !@sst[idx.to_i].nil?
   end
   def sst_size
     @sst.size
